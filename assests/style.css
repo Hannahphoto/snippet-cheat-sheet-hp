@@ -15,23 +15,41 @@ header {
     font-size: larger;
 }
 
+header2 {
+
+}
+
 h2{
-    font-size: small;
+    font-size: medium;
     margin: 10px;
     padding: 10px;
     color: white;
 }
-
+h3{
+    display: block;
+    border: 2px solid white;
+    height: 30px;
+    width: 75%;
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+    /* position: absolute; */
+}
 
 main{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+   
 }
 
 .box {
-    margin: 2px;
-    padding: 2px;
-    border: 2px solid white
+    display: block;
+    border: 2px solid white; 
+    margin: 20px;   
+    height: 250px;
+    width: 30%;
+    border-style: dashed;
+
 }
 
 
